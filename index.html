@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electron Parser and Printing App</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ensure this is the path to your styles for the printing app -->
+</head>
+<body>
+    
+    <!-- This is the div from your printing app where content will be loaded for printing -->
+    <div id="printableArea"></div>
+    <div id="infoBar" style="display: none; position: fixed; bottom: 0; background-color: transparent; font-size: small; padding: 10px; width: 50%; text-align: left; box-shadow: 0px -2px 5px rgba(0,0,0,0.2); z-index: 1000;"></div>
+
+
+    <script>
+      // This script will run in the renderer process
+      const { ipcRenderer } = require('electron');
+
+      ipcRenderer.on('parsing-status', (event, message) => {
+        document.getElementById('status').textContent = message;
+      });
+    </script>
+    <script src="renderer.js"></script>
+
+</body>
+</html>

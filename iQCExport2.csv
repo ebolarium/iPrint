@@ -1,0 +1,7 @@
+﻿Tolerances:;DL* tol;Da* tol;Db* tol;DC* tol;DH* tol;P/F tol;Margin;l:c
+D65-10; 1.13; 3.79; 2.58; 4.84; 1.53;  1.00;10%;1.0 1.0 1.0
+Standard Name;L* ;a* ;b* ;C* ;h° ;;;
+Fire Red; 30.83 ; 51.59 ; 28.00 ; 58.70 ; 28.48 ;;;
+Trial Name;DL* ;Da* ;Db* ;DC* ;DH* ;DEcmc ;P/F DE2000;MI-(1,2) 
+Sample 001; -0.05 D; -0.11 G; -0.25 B; -0.21 D; -0.16 R;  0.14 ;Passed;  0.11 
+Sample 002; -0.29 D; -0.47 G; -0.72 B; -0.76 D; -0.41 R;  0.43 ;Passed;  0.19 

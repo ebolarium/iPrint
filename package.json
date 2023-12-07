@@ -1,0 +1,16 @@
+{
+  "name": "merge-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "interactjs": "^1.10.20",
+    "papaparse": "^5.4.1"
+  }
+}
