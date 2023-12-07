@@ -171,7 +171,7 @@ function createWindow() {
 
                 }
               }).catch(err => {
-                console.error('Dosya kaydetme hatası:', err);
+                console.error('Dosya kaydetme Error:', err);
               });
             }
             },
@@ -189,7 +189,7 @@ function createWindow() {
                     win.webContents.send('load-saved-properties-file-path', file.filePaths[0]);
                   }
                 }).catch(err => {
-                  console.error('Dosya açma hatası:', err);
+                  console.error('Dosya açma Error:', err);
                 });
             }
           }
