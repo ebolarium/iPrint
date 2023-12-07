@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightgray;
+}
+
+
+#printableArea {
+    position: relative;
+    width: 210mm;
+    height: 297mm;
+    border: 1px solid #ddd;
+    padding: 5mm; /* Adjusted padding */
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    #printableArea {
+        transform: scale(0.5);
+        transform-origin: top left;
+        width: 420mm;
+        height: 594mm;
+    }
+}
+
+@media print {
+    body {
+        font-size: 12pt;
+    }
+    button {
+        display: none;
+    }
+}
+
+
+@media print {
+    body {
+        font-size: 12pt;
+    }
+    /* Hide elements not needed for print */
+    button {
+        display: none;
+    }
+}
+
+@page {
+    margin: 2mm;
+    align-self: center;
+}
+
+.draggable-textbox {
+    position: absolute; /* Elements are positioned absolutely within the printableArea */
+    box-sizing: border-box; /* Include padding and border in the element's size */
+    margin: 0;              /* Reset margin */
+  }
+
+  .draggable-image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+  }
+
+  .draggable-text {
+    position: absolute; /* Required for dragging */
+    display: inline-flex; /* Keeps label and text aligned */
+    align-items: center; /* Center align items vertically */
+    padding: 4px; /* Add some padding */
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    background-color: white; /* Background color for visibility */
+    /* Add any additional styling as needed */
+  }
+
+  /* styles.css */
+.draggable-table {
+    position: absolute;
+    border-collapse: collapse;
+    /* Add more styles as necessary */
+  }
+  
+  .draggable-table th, .draggable-table td {
+    border: none;
+    padding: 5px;
+    text-align: left;
+  }
+
+  .draggable-text-container {
+    position: absolute;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: white;
+    /* Add any additional styling as needed */
+  }
+  
+  .draggable-text-container div {
+    margin-bottom: 2px; /* Space out the trial names */
+  }

@@ -1,0 +1,18 @@
+﻿Tolerances:;DL* tol;Da* tol;Db* tol;DC* tol;DH* tol;P/F tol;Margin;l:c
+D65-10; 1.45; 2.08; 1.67; 2.44; 1.31;  1.00;10%;2.00
+A  -10; 2.68; 3.26; 2.91; 4.17; 2.00;  1.60; 0.00;2.00
+F02-10 (CWF); 1.71; 2.19; 1.84; 2.66; 1.36;  1.24; 0.00;2.00
+Standard Name;L* ;a* ;b* ;C* ;h° ;;;
+Ahmet; 30.83 ; 51.59 ; 28.00 ; 58.70 ; 28.48 ;;;
+     A  -10; 38.87 ; 54.20 ; 41.82 ; 68.46 ; 37.66 ;;;
+     F02-10 (CWF); 28.34 ; 36.85 ; 23.83 ; 43.88 ; 32.89 ;;;
+Trial Name;DL* ;Da* ;Db* ;DC* ;DH* ;DEcmc ;P/F DEcmc;
+Sample 001; -0.05 Darker; -0.11 Greener; -0.25 Bluer; -0.21 Duller; -0.16 Redder;  0.14 ;Passed;
+ ; -0.06 Darker; -0.00         ; -0.26 Bluer; -0.16 Duller; -0.21 Redder;  0.16 ;;
+ ; -0.13 Darker; -0.15 Greener; -0.51 Bluer; -0.40 Duller; -0.35 Redder;  0.34 ;;
+Sample 002; -0.29 Darker; -0.47 Greener; -0.72 Bluer; -0.76 Duller; -0.41 Redder;  0.43 ;Passed;
+ ; -0.35 Darker; -0.33 Greener; -0.82 Bluer; -0.76 Duller; -0.45 Redder;  0.45 ;;
+ ; -0.36 Darker; -0.49 Greener; -1.07 Bluer; -0.98 Duller; -0.64 Redder;  0.70 ;;
+Sample 003; -0.00         ;  0.24 Redder;  0.17 Yellower;  0.29 Brighter;  0.04 Yellower;  0.11 ;Passed;
+ ;  0.03 Lighter;  0.22 Redder;  0.23 Yellower;  0.32 Brighter;  0.05 Yellower;  0.12 ;;
+ ; -0.05 Darker;  0.20 Redder; -0.09 Bluer;  0.12 Brighter; -0.18 Redder;  0.16 ;;
